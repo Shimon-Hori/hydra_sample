@@ -1,0 +1,13 @@
+; https://pylint.readthedocs.io/en/latest/user_guide/usage/run.html
+; https://pylint.readthedocs.io/en/latest/user_guide/checkers/features.html
+; https://github.com/pylint-dev/pylint/blob/main/pylintrc
+
+[MESSAGES CONTROL]
+disable =
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    invalid-name,
+    wrong-import-order,
+    arguments-differ,
+max-line-length = 120

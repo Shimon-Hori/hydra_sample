@@ -23,3 +23,7 @@ training:
 evaluation:
   val_epochs: 5
   save_epochs: 5
+
+hydra:
+  run:
+    dir: hydra_outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}_${run.name}_${run.tag}

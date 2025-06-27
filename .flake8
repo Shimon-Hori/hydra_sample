@@ -1,0 +1,12 @@
+; https://flake8.pycqa.org/en/stable/user/configuration.html
+
+[flake8]
+ignore =
+    ; VNE001:single letter variable names like 'XXX' are not allowed
+    ; https://pypi.org/project/flake8-variables-names/
+    VNE001,
+    ; W503:line break before binary operator'
+    W503,
+    ; N812: lowwercase '***' imported as non lowercase
+    N812,
+max-line-length = 120

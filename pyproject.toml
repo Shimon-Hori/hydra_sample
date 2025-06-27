@@ -1,0 +1,12 @@
+# [tool.autopep8]
+# # https://github.com/hhatto/autopep8#configuration
+# # https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes
+# max_line_length = 120
+# ignore = "E5,E4"
+# # E4 Import
+# # E5 Line length
+# aggressive = 2
+
+[tool.black]
+# https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html#configuration-format
+line-length = 120
