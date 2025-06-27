@@ -1,6 +1,7 @@
 # hydra_sample
 
 - 公式ドキュメント：<https://hydra.cc/docs/intro/>
+- 勉強会資料：<https://nitechict.sharepoint.com/:p:/r/sites/tamaki_lab_prv2/Shared%20Documents/General/11%E5%8B%89%E5%BC%B7%E4%BC%9A%E3%83%BB%E3%82%BC%E3%83%9F%E3%81%AE%E8%B3%87%E6%96%99/2025%E5%B9%B4%E5%BA%A6%E5%8B%89%E5%BC%B7%E4%BC%9A/20250704%E5%8B%89%E5%BC%B7%E4%BC%9A%EF%BC%9Ahydra_optuna.pptx?d=w0817860b2fd5436db64c9155617a233c&csf=1&web=1&e=wwpKxg>
 
 ## 実行手順
 
