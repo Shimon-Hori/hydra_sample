@@ -4,7 +4,7 @@
 
 ## 実行手順
 
-1. `python3 -m venv ~/.hedra_sample`
+1. `python3 -m venv ~/.hydra_sample`
 2. `source ~/.hydra_sample/bin/activate`
 3. `pip install -r requirements.txt`
 4. `python main.py`
@@ -65,11 +65,18 @@ losses:
 
 - `config.yaml`の`defaults:`に記述することで設定をインポートできる
 
-5. `main`関数にデコレータを追加
+5. ライブラリをimport
+
+```
+import hydra
+from omegaconf import DictConfig
+```
+
+6. `main`関数にデコレータを追加
 
 ```@hydra.main(version_base=None, config_path="conf", config_name="config")```
 
-6. `main`関数を書き換える
+7. `main`関数を書き換える
 ```def main(cfg: DictConfig) -> None:```
 
 ### 実験ごとにyamlファイルを作成する場合
